@@ -1,0 +1,54 @@
+#main-content{
+    min-height: 120vh;
+}
+#nav-container{
+    padding: 0 !important;
+    background-color: black;
+}
+.navbar{
+    padding: 0px;
+}
+.navbar-collapse{
+    background-color: yellow;
+    color: black !important;
+}
+.navbar-collapse .nav-link{
+    color: black !important;
+}
+.navbar-collapse .nav-link:hover{
+    background-color: black;
+    color: yellow !important;
+    border-top: 1px solid yellow;
+}
+.navbar-brand, .navbar-toggler{
+    margin: 10px 20px;
+    color: yellow;
+    font-weight: bolder;
+}
+.navbar-brand:hover{
+    color: yellow;
+}
+.navbar-toggler-icon{
+    color: yellow !important;
+}
+.hr-line{
+    color: yellow;
+    border-top: 2px solid yellow;
+}
+.menu-item h3{
+    border-left: 3px solid yellow !important;
+    padding: 0px 7px;
+}
+
+/* XS DEVICES */
+@media (max-width: 767px){
+    .d-xs-block {
+        display: block !important;
+    }
+}
+
+@media (min-width: 992px) {
+    #navbar-nav{
+        display: none !important;
+    }
+}
